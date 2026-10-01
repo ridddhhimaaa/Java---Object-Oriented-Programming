@@ -1,13 +1,13 @@
-# Java class files
+# Java compiled files
 *.class
 
-# Build directories
+# Build and output directories
 bin/
 out/
 build/
 target/
 
-# IDE files
+# IDE metadata
 .idea/
 .vscode/
 *.iml

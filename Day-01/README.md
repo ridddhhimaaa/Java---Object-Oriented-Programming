@@ -1,37 +1,44 @@
 # Day 01 - Classes and Objects
 
-### Concept
+## Topic
 
-A class is a blueprint for creating objects. An object is an instance of a class that contains state and behavior.
+Classes and Objects in Java
 
-This example demonstrates how a `Student` class stores data and exposes behavior through a method.
+## What I Learned
 
-### What I Learned
+- What a class is
+- What an object is
+- How to create a class
+- How to create an object using the `new` keyword
+- How constructors initialize objects
+- How object methods are called
+- How object attributes store data
 
-- A class defines attributes and methods.
-- An object is created using the `new` keyword.
-- The `this` keyword refers to the current object.
-- Methods can access and use object data.
+## Implementation
 
-### Code
+This example creates a `Student` class that stores student information and has a `study()` method.
 
-The implementation defines a `Student` class with:
+The `Main` class creates a `Student` object, passes values through the constructor, accesses the object's data, and calls the method.
 
-- `name` as an instance variable
-- `age` as an instance variable
-- a constructor to initialize values
-- a `displayInfo()` method to print details
+## Files
 
-The `Main` class creates two `Student` objects and prints their information.
+| File | Description |
+|------|-------------|
+| `Student.java` | Defines the Student class |
+| `Main.java` | Creates and uses a Student object |
 
-### Key Takeaways
+## Key Takeaways
 
-- Classes are templates, while objects are actual instances.
-- Encapsulation of data in a class makes programs easier to model.
-- Methods help give objects meaningful behavior.
+- A class is a blueprint for creating objects.
+- An object is an instance of a class.
+- The `new` keyword is used to create objects.
+- Constructors initialize object state.
+- Methods define behavior.
 
-### Practice
+## Output
 
-1. Add a `grade` field and print it in `displayInfo()`.
-2. Create a `Teacher` class with `name` and `subject`.
-3. Create three different objects and display their details.
+```text
+Name: Riddhima
+Age: 20
+Riddhima is studying
+```

@@ -137,8 +137,8 @@ This repository will grow naturally over time as new Java OOP topics and project
 This table is meant to be updated regularly as work is completed.
 
 | Day | Topic | Status |
-| --- | ---------------------- | ------ |
-| 01 | Classes & Objects | ✅ |
+| --- | ---------------------- | -------- |
+| 01 | Classes and Objects | Completed |
 | 02 | Constructors | ⬜ |
 | 03 | Encapsulation | ⬜ |
 | 04 | Inheritance | ⬜ |
